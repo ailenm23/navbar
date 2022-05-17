@@ -1,0 +1,33 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header{
+background-color: whitesmoke;
+height: 70px;
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+
+.logo{
+    height: 1000%;
+    padding: 100px;
+}
+
+.nav-list{
+    display: flex;
+    gap: 80px;
+    list-style: none;
+}
+
+.nav-link{
+    color: pink;
+}
+.nav-link:hover{
+    text-decoration:underline;
+    color: crimson;
+}
